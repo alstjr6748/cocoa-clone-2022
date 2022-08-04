@@ -37,3 +37,14 @@
     color: red;
     opacity: 0.6;
 }
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons  .fa-gear:hover {
+    animation: rotateCog 1.5s ease-in-out infinite;
+}
