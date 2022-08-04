@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat - Kakao Talk</title>
+    <title>Chats - Kakao Talk</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body id="chat-screen">
+<body>
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -22,61 +22,212 @@
             <i class="fa-solid fa-bolt-lightning"></i>
         </div>
     </div>
-    <header class="alt-header">
-        <div class="alt-header__column">
-            <a href="chats.html">
-                <i class="fa-solid fa-angle-left fa-2x"></i>
-            </a>
-        </div>
-        <div class="alt-header__column">
-            <h1 class="alt-header__title">Real Madrid</h1>
-        </div>
-        <div class="alt-header__column">
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
     </header>
-    <main class="main-screen main-chat">
-       <div class="chat__timestamp">
-            Tuesday, June 30, 2022
-       </div>
-       <div class="message-row">
-           <img src="imgs/real-madrid.jpg">
-           <div class="message-row_content">
-               <span class="message__author">Real Madrid</span>
-               <div class="message__info">
-                <span class="message__bubble">Hi!</span>
-                <span class="message__time">21:27</span>
-               </div>
-           </div>
-       </div>
 
-       <div class="message-row message-row--own">
-        <div class="message-row_content">
-            <div class="message__info">
-             <span class="message__bubble">Hi nice to meet you!</span>
-             <span class="message__time">21:27</span>
+    <main class="main-screen full-screen">
+        <a href="chat.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/real-madrid.jpg" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Real Madrid</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+                </div>
             </div>
-        </div>
-    </div>
+        </a>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Benzema.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Karim Benzema</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">09:09</span>
+                    <div class="badge">9</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Modrić.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Luka Modrić</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">10:10</span>
+                    <div class="badge">10</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Kroos.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Toni Kroos</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">08:08</span>
+                    <div class="badge">8</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Vinícius José.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Vinícius José</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">20:20</span>
+                    <div class="badge">20</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Thibaut Courtois.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Thibaut Courtois</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">01:01</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Casemiro.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Casemiro</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">14:14</span>
+                    <div class="badge">14</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Ferland Mendy.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Ferland Mendy</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">23:23</span>
+                    <div class="badge">23</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Eden Hazard.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Eden Hazard</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">07:07</span>
+                    <div class="badge">7</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Éder Militão.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Éder Militão</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">03:03</span>
+                    <div class="badge">3</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Dani Carvajal.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Dani Carvajal</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">02:02</span>
+                    <div class="badge">2</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="imgs/Antonio Rüdiger.png" class="user-component__avatar user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Antonio Rüdiger</h4>
+                        <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">22:22</span>
+                    <div class="badge">22</div>
+                </div>
+            </div>
     </main>
-    <form class="reply">
-        <div class="reply__column">
-            <i class="fa-regular fa-square-plus fa-lg"></i>
-        </div>
-        <div class="reply__column">
-            <input type="text" placeholder="Write a message...">
-            <i class="fa-regular fa-face-laugh-beam"></i>
-            <button>
-                <i class="fa-solid fa-arrow-up"></i>
-            </button>
-        </div>
-    </form>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-solid fa-comment fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__reddot"></span>
+                    <i class="fa-solid fa-ellipsis fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
     <div id="no-mobile">
         <span>
             Your screen is too big
         </span>
     </div>
+
+
     <script src="https://kit.fontawesome.com/4791395687.js" crossorigin="anonymous"></script>
 </body>
 </html>
